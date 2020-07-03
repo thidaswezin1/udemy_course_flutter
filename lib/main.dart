@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:udemyflutter/dice/dice_screen.dart';
+import 'package:udemyflutter/xylophone/xylophone.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: DiceScreen()
+      home: Xylophone()
     );
   }
 }
