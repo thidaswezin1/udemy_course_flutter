@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:udemyflutter/dice/dice_screen.dart';
-import 'package:udemyflutter/xylophone/xylophone.dart';
+import 'package:udemyflutter/screen/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,12 +9,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dice',
+      title: 'HomePage',
       theme: ThemeData(
         primarySwatch: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Xylophone()
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen()
     );
   }
 }
