@@ -36,7 +36,7 @@ class _XylophoneState extends State<Xylophone> {
             buildWidget(color: Colors.amber,soundNumber: 4),
             buildWidget(color: Colors.green,soundNumber: 5),
             buildWidget(color: Colors.orange,soundNumber: 6),
-            buildWidget(color: Colors.black,soundNumber: 7)
+            buildWidget(color: Colors.brown,soundNumber: 7)
           ],
         ),
       ),

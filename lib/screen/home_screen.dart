@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:udemyflutter/Quiz/quizer.dart';
 import 'package:udemyflutter/dice/dice_screen.dart';
+import 'package:udemyflutter/story/StoryPage.dart';
 import 'package:udemyflutter/xylophone/xylophone.dart';
 class HomeScreen extends StatefulWidget {
   @override
@@ -42,6 +43,15 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Text('Quiz'),
               onPressed: (){
                 Navigator.push(context, MaterialPageRoute(builder:(context)=>QuizPage()));
+              },
+            ),
+          ),
+          Expanded(
+            child: FlatButton(
+              color: Colors.yellowAccent,
+              child: Text('Story'),
+              onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder:(context)=>StoryPage()));
               },
             ),
           )
